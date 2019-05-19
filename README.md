@@ -11,3 +11,5 @@
 - Text alignment
 - Line height
 - Letter and word spacing
+
+![The resulting page image](https://github.com/prateek88/CSS-Text-Styling/blob/master/Result.png "The Resulting page")
