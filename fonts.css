@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 3px 1px 1px black;
+  font-size: 4rem;
+  color: rgb(1,122,199);
+}
+
+p:nth-of-type(1) {
+  font-style: italic;
+}
+
+p:nth-of-type(2) {
+  text-indent: 10%;
+}
+
+p:hover {
+  font-weight: bold;
+  /*text-decoration: underline;*/
+}
+
+p {
+  /* below 2 rules are required for text overflow*/
+  /*white-space: nowrap;
+  overflow: hidden;*/
+  /*text-overflow: ellipsis;*/
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-variant: small-caps;
+  font-variant-caps: petite-caps;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+  text-align: justify;
+  text-shadow: 1px 1px 10px rgb(255,23,194);
+  font-weight: normal;
+  text-transform: none;
+  font-size: 2rem;
+  color: rgb(255,23,194);
+  font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
